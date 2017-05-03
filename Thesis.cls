@@ -192,7 +192,6 @@
     \vskip 60\p@
     \begin{center}
       \setlength{\parskip}{0pt}
-      {\large\textbf{\UNIVNAME}\par}
       \vfill
       {\huge \bf \@title \par}
       \vfill
@@ -200,16 +199,6 @@
       \smallskip
       {\LARGE \authornames \par}
       \vfill
-      {\large A thesis submitted in partial fulfillment for the \par}
-      {\large degree of Doctor of Philosophy \par}
-      \bigskip
-      \bigskip
-      {\large in the \par}
-      {\large \facname \par}
-      {\large \deptname \par}
-      \bigskip
-      \bigskip
-      \bigskip
       {\Large \@date \par}
       \bigskip
     \end{center}
@@ -237,14 +226,9 @@
   \null\vfil
   \begin{center}
     \setlength{\parskip}{0pt}
-    {\normalsize \UNIVNAME \par}
-    \bigskip
     {\huge{\textit{Abstract}} \par}
     \bigskip
-    {\normalsize \facname \par}
-    {\normalsize \deptname \par}
     \bigskip
-    {\normalsize Doctor of Philosophy\par}
     \bigskip
     {\normalsize\bf \@title \par}
     \medskip
