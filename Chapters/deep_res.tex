@@ -1,5 +1,69 @@
 \section{Results}
 
+\subsection{Sparse Angle reconstruction - Image Domain}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_50_1} \
+    \caption{Unseen test result from network trained on fifty projections}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_profile_50_1} \
+    \caption{Profile through centre of output image and input image compared with target for network trained on fifty projections}
+\end{figure}
+
+Average Test loss : 2.12240107143
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_20_1} \
+    \caption{Unseen test result from network trained on twenty projections}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_profile_20_1} \
+    \caption{Profile through centre of output image and input image compared with target for network trained on twenty projections}
+\end{figure}
+
+Average Test loss : 2.34353055954
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_10_1} \
+    \caption{Unseen test result from network trained on ten projections}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_angle_profile_10_1} \
+    \caption{Profile through centre of output image and input image compared with target for network trained on ten projections}
+\end{figure}
+
+Average Test loss : 10.7825043774
+
+\subsection{Sparse Angle reconstruction - Projection Domain}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/sparse_sino_32_1} \
+\end{figure}
+
+\subsection{Polychromatic Artefact removal}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/poly_art_rem_ims_1} \
+\end{figure}
+
+\begin{figure}[H]
+\centering
+     \includegraphics[width=\textwidth]{figures/poly_art_rem_profile_1} \
+  \caption{This is   some figure side by side}
+\end{figure}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut libero consequat, egestas ex sed, venenatis odio. Sed dictum cursus cursus. Cras dictum, metus in gravida maximus, ante risus tristique elit, at dignissim ipsum nibh a ex. Aliquam sit amet sodales eros. In lectus enim, feugiat eget massa nec, ultricies aliquam turpis. Nulla facilisi. Nulla commodo imperdiet erat, vitae interdum dolor bibendum a. Morbi feugiat ultrices libero id tincidunt. Vivamus luctus erat in fringilla pellentesque. Vivamus nec lorem tempor, mattis eros vel, egestas dui. Vestibulum scelerisque condimentum dolor. Proin convallis nulla dolor.
 
 Donec eu tortor eget eros tincidunt fringilla. Curabitur fermentum vel magna sit amet consequat. Integer egestas lorem vel purus dictum facilisis. Duis sit amet urna ac neque gravida facilisis. Maecenas et erat ut eros laoreet fringilla. Quisque id turpis scelerisque, semper elit sit amet, consequat dolor. Vestibulum mauris turpis, viverra tempus justo vel, faucibus accumsan quam.
@@ -24,3 +88,18 @@ Nullam vestibulum imperdiet pharetra. Integer venenatis posuere arcu a ultricies
 
 Etiam malesuada eros risus, id volutpat mi imperdiet eu. Donec cursus lacus nunc, auctor tincidunt arcu fermentum nec. Donec est velit, eleifend eu fringilla ut, rhoncus et nisi. Aenean libero odio, congue at justo sit amet, volutpat suscipit turpis. Ut at finibus nulla. Fusce tincidunt eu mauris in suscipit. Sed suscipit ultricies risus in hendrerit. Donec et est interdum, tempus purus ac, lobortis elit. Fusce fringilla ex tempor diam tincidunt, cursus laoreet urna.
 
+\begin{figure}
+    \centering
+    \begin{subfigure}[t]{\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/sparse_angle_10_1} 
+        \caption{Generic} \label{fig:timing1}
+    \end{subfigure}
+    \vspace{1cm}
+    \begin{subfigure}[t]{\textwidth}
+    \centering
+        \includegraphics[width=\linewidth]{figures/sparse_angle_10_1} 
+        \caption{Price regulation} \label{fig:timing3}
+    \end{subfigure}
+    \caption{Some general caption of all the figures. In (\subref{fig:timing1}) you can see a  green square....}
+\end{figure}
